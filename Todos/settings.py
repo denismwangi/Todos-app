@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Todos'
+    'todoApp'
 ]
 
 MIDDLEWARE = [
@@ -79,6 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Todos',
         'USER': 'postgres',
+        'PASSWORD': 'denis123',
         'HOST': 'localhost'
     }
 }
